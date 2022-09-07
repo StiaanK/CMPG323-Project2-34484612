@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace project2API.Controllers
 {
+    
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]

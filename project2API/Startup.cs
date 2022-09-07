@@ -26,13 +26,17 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<project2API.Models.ProductsDBContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
-            services.AddDbContext<ProductsDBContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
+
+            //services.AddDbContext<ProductsDBContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "JWTToken_Auth_API",
+                    Title = "project2API",
                     Version = "v2"
                 });
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
@@ -59,11 +63,11 @@ namespace JWTAuthentication
 
 
             // For Entity Framework  
-            services.AddDbContext<ProductsDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ProductsDBContext>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
             // Adding Authentication  
@@ -108,8 +112,10 @@ namespace JWTAuthentication
                 endpoints.MapControllers();
             });
             app.UseSwagger(); 
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "MyTest Demo"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "project2API"));
+
+
+
         }
     }
-
 }
