@@ -1,6 +1,24 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+
+namespace JWTAuthentication.Authentication
+{
+    public class ProductsDBContext : IdentityDbContext<ApplicationUser>
+    {
+        public ProductsDBContext(DbContextOptions<ProductsDBContext> options) : base(options)
+        {
+
+        }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
+    }
+}
+
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
 // If you have enabled NRTs for your project, then un-comment the following line:
