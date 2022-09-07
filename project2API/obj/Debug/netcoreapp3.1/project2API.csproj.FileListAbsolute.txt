@@ -138,3 +138,9 @@ C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcorea
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\project2API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
