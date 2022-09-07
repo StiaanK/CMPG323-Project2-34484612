@@ -3,3 +3,5 @@
 3. Command dotnet ef not found  https://stackoverflow.com/questions/57066856/command-dotnet-ef-not-found
 4. Implement Swagger In ASP.net Core 3.1 Web API    https://www.c-sharpcorner.com/blogs/implement-swagger-in-asp-net-core-31-web-api
 5. Why the metod app.UseSwaggerUI(...) is not found?    https://stackoverflow.com/questions/65704296/why-the-metod-app-useswaggerui-is-not-found
+6. How do I resolve the issue the request matched multiple endpoints in .Net Core Web Api   https://stackoverflow.com/questions/59283210/how-do-i-resolve-the-issue-the-request-matched-multiple-endpoints-in-net-core-w
+7. How to make where query in HttpGet request in .net core web api  https://stackoverflow.com/questions/71958258/how-to-make-where-query-in-httpget-request-in-net-core-web-api
