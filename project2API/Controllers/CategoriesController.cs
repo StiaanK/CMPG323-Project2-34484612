@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace project2API.Controllers
 {
-    
+
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
@@ -30,6 +30,7 @@ namespace project2API.Controllers
         {
             return await _context.Category.ToListAsync();
         }
+
 
         // GET: api/Categories/5
         [HttpGet("{id}")]

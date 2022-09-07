@@ -9,6 +9,7 @@ using project2API.Models;
 
 namespace project2API.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class DevicesController : ControllerBase
@@ -25,6 +26,22 @@ namespace project2API.Controllers
         public async Task<ActionResult<IEnumerable<Device>>> GetDevice()
         {
             return await _context.Device.ToListAsync();
+        }
+
+        [HttpGet("Category id")]
+        public async Task<ActionResult<IEnumerable<Device>>> GetCategory(Guid id)
+        {
+            var cat = await _context.Device.Where(D => D.CategoryId == id).ToListAsync();
+
+            return cat;
+        }
+
+        [HttpGet("Zone id")]
+        public async Task<ActionResult<IEnumerable<Device>>> GetZone(Guid id)
+        {
+            var cat = await _context.Device.Where(D => D.ZoneId == id).ToListAsync();
+
+            return cat;
         }
 
         // GET: api/Devices/5
