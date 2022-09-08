@@ -142,3 +142,4 @@ C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcorea
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\project2API.StaticWebAssets.xml
