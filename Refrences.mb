@@ -5,3 +5,5 @@
 5. Why the metod app.UseSwaggerUI(...) is not found?    https://stackoverflow.com/questions/65704296/why-the-metod-app-useswaggerui-is-not-found
 6. How do I resolve the issue the request matched multiple endpoints in .Net Core Web Api   https://stackoverflow.com/questions/59283210/how-do-i-resolve-the-issue-the-request-matched-multiple-endpoints-in-net-core-w
 7. How to make where query in HttpGet request in .net core web api  https://stackoverflow.com/questions/71958258/how-to-make-where-query-in-httpget-request-in-net-core-web-api
+8. Creating Azure for Students Account https://www.c-sharpcorner.com/article/creating-azure-for-students-account/
+9. Overview to ASP.NET Core  https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0#how-to-download-a-sample
