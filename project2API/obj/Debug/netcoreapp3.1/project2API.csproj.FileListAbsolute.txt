@@ -15,8 +15,6 @@ C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcorea
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\project2API.dll
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\project2API.pdb
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\staticwebassets\project2API.StaticWebAssets.Manifest.cache
-C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\staticwebassets\project2API.StaticWebAssets.xml
-C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\scopedcss\bundle\project2API.styles.css
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\project2API.RazorTargetAssemblyInfo.cache
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\obj\Debug\netcoreapp3.1\project2API.genruntimeconfig.cache
 C:\Users\Stiaan\Desktop\CMPG323-Project2-34484612\project2API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
